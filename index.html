@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biswash Devkota</title>
-    <style>
-        body {
-            font-family: 'Dancing Script', cursive;
-            text-align: center;
-            background-image: url('bcg.png');
-            background-size: cover;
-            background-position: center;
-            color: #b35d5d;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .container {
-            position: relative;
-            padding: 20px;
-            max-width: 800px;
-            border-radius: 10px;
-
-        }
-
-        .opening-soon {
-            font-size: 64px;
-            color: #b35d5d;
-            font-weight: 400;
-            text-align: center;
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet"></head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="opening-soon">Opening Soon</div>
+    <div class="main_container">
+        <div class="screen">
+            <input type="text" placeholder="Enter number">
+        </div>
+        <div class="second_row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>DEL</button>
+            <button>AC</button>
+        </div>
+        <div class="Third_row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+            <button>/</button>
+        </div>
+        <div class="Forth_row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+            <button>-</button>
+        </div>
+        <div class="fifth_row">
+            <button>0</button>           
+            <button>00</button>
+            <button>**</button>
+            <button>.</button>
+            <button>=</button>
+        </div>
+        
+
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
